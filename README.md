@@ -1,1 +1,1 @@
-I am going to program a basic recipe website. This project will demonstrate my knowledge and creativity of using HTML, CSS and JavaScript.
+The project is a basic recipe website. It is to demonstrate my knowledge and creativity of using HTML, CSS and JavaScript.
