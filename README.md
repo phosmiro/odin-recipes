@@ -1,1 +1,1 @@
-# odin-recipes
+I am going to program a basic recipe website. This project will demonstrate my knowledge and creativity of using HTML, CSS and JavaScript.
