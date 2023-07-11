@@ -1,0 +1,23 @@
+body {
+    text-align: center;
+    font-family: Tahoma, sans-serif;
+    font-size: 20px;
+    background-color: rgba(255, 166, 0, 0.396);
+}
+
+#home-link {
+    margin: 30px 0 10px 0;
+}
+
+a {
+    margin-left: 10px;
+    color: white;
+    background-color: rgba(255, 170, 0, 0.625);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+hr {
+    border: solid 1px;
+    margin-bottom: 30px;
+}
