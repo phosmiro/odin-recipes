@@ -1,8 +1,11 @@
 body {
-    text-align: center;
-    font-family: Tahoma, sans-serif;
     font-size: 20px;
-    background-color: rgba(255, 166, 0, 0.396);
+    background-color: rgba(255, 166, 0, 0.396);  
+    font-family: Tahoma, sans-serif;
+}
+
+.homepage {
+    text-align: center;
 }
 
 #home-link {
@@ -25,4 +28,12 @@ hr {
 
 h1 {
     color: #ffaa00c5;
+}
+
+ {
+    text-align: left;
+}
+
+.kamayan {
+    width: 600px;
 }
