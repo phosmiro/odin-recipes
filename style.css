@@ -12,7 +12,7 @@ body {
 a {
     margin-left: 10px;
     color: white;
-    background-color: rgba(255, 170, 0, 0.625);
+    background-color: #ffaa00c5;
     padding: 10px;
     border-radius: 5px;
 }
@@ -20,4 +20,9 @@ a {
 hr {
     border: solid 1px;
     margin-bottom: 30px;
+    color: #ffaa00c5;
+}
+
+h1 {
+    color: #ffaa00c5;
 }
