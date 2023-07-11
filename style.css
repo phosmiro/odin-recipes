@@ -1,6 +1,6 @@
 body {
     font-size: 20px;
-    background-color: rgba(255, 166, 0, 0.396);  
+    background-color: #ff8000;  
     font-family: Tahoma, sans-serif;
 }
 
@@ -8,35 +8,50 @@ body {
     text-align: center;
 }
 
-#home-link {
-    margin: 30px 0 10px 0;
+.homepage-heading {
+    color: whitesmoke;
 }
 
-a {
+.homepage-box {
+    background-color: rgb(245, 245, 245);
+    width: 900px;
+    margin: 0 auto;
+    height: 600px;
+    border-radius: 30px;
+}
+
+.homepage-box #home-link a{
+    background-color: orange;
     margin-left: 10px;
-    color: white;
-    background-color: #ffaa00c5;
-    padding: 10px;
+    color: whitesmoke;
+    padding: 10px 15px 10px 15px;
     border-radius: 5px;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: bold;
+    font-family: helvetica;
+}
+
+#home-link {
+    margin: 20px 0 10px 0;
 }
 
 hr {
-    border: solid 1px;
+    border: solid 2px;
     color: #ffaa00c5;
 }
 
-h1 {
-    color: #ffaa00c5;
-}
-
-.kamayan {
+.kamayan-img {
     width: 600px;
+    margin-top: 50px;
 }
 
-.recipe-body {
+.recipe-box {
     background-color: whitesmoke;
     padding: 10px 20px 20px 20px;
     margin: 10px 20px 10px 20px;
+    color: #000000c3; 
+    width: 1045px;
 }
 
 .recipe-img {
@@ -45,4 +60,13 @@ h1 {
 
 .recipe-img img {
     margin-right: 10px;
+}
+
+.recipe-heading {
+    margin-left: 20px;
+    color: whitesmoke;
+}
+
+.recipe-subheading {
+    color: orange;
 }
