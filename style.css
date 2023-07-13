@@ -17,27 +17,31 @@ body {
 }
 
 .homepage-box {
-    background-color: rgb(245, 245, 245);
-    width: 900px;
+    background-color: whitesmoke;
+    width: 800px;
+    padding: 50px;
     margin: 0 auto;
-    height: 600px;
     border-radius: 30px;
 }
 
-.homepage-box #home-link a{
+.btn-container {
+    margin: 20px;
+}
+
+.btn {
     background-color: orange;
     margin-left: 10px;
     color: whitesmoke;
-    padding: 10px 15px 10px 15px;
-    border-radius: 5px;
+    padding: 10px 20px;
+    border-radius: 20px;
     text-decoration: none;
-    font-size: 13px;
+    font-size: 14px;
     font-weight: bold;
-    font-family: helvetica;
+    font-family: Helvetica;
 }
 
-#home-link {
-    margin: 20px 0 10px 0;
+.btn:hover {
+    background-color: #ffb727;
 }
 
 hr {
@@ -45,25 +49,21 @@ hr {
     color: #ffaa00c5;
 }
 
-.kamayan-img {
-    width: 600px;
-    margin-top: 50px;
-}
-
 .recipe-box {
     background-color: whitesmoke;
     padding: 10px 20px 20px 20px;
     margin: 10px 20px 10px 20px;
-    color: #000000c3; 
+    color: #000000e3; 
     width: 1045px;
 }
 
 .recipe-img {
-    margin: 20px 20px 20px 20px;
+    margin: 20px;
 }
 
 .recipe-img img {
     margin-right: 10px;
+    margin-bottom: -7px;
 }
 
 .recipe-heading {
