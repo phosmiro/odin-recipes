@@ -1,35 +1,58 @@
 * {
     line-height: 1.5;
     font-family: Tahoma, sans-serif;
+    box-sizing: border-box;
+}
+
+img {
+    display: inline-block
 }
 
 body {
     font-size: 20px;
-    background-color: #ff8000;  
+    background-color: #a3a3d1;  
 }
 
-.homepage {
+h1 {
     text-align: center;
-}
-
-.homepage-heading {
     color: whitesmoke;
 }
 
-.homepage-box {
+.recipe-card {
     background-color: whitesmoke;
-    width: 800px;
+    width:900px;
     padding: 50px;
-    margin: 0 auto;
-    border-radius: 30px;
+    margin: 10px auto;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.recipe-card-container {
+    display: block;
+    padding-bottom: 500px;
+}
+
+.recipe-content {
+    display: inline-block;
+    width: 430px;
+    margin-left: 50px;
+}
+
+#leche-flan {
+    margin-bottom: 20px;
+}
+
+.recipe-content p {
+    margin: 0;
 }
 
 .btn-container {
-    margin: 20px;
+    margin: 0;
+    float: right;
 }
 
 .btn {
-    background-color: orange;
+    display: inline-block;
+    background-color: #a3a3d1;
     margin-left: 10px;
     color: whitesmoke;
     padding: 10px 20px;
@@ -41,30 +64,37 @@ body {
 }
 
 .btn:hover {
-    background-color: #ffb727;
+    background-color: #b7b7e8;
 }
 
 hr {
     border: solid 2px;
-    color: #ffaa00c5;
+    color: #a3a3d1;
 }
 
 .recipe-box {
     background-color: whitesmoke;
     padding: 10px 20px 20px 20px;
-    margin: 10px 20px 10px 20px;
+    margin: 10px auto;
     color: #000000e3; 
     width: 1045px;
+    box-shadow: 1px 1px 7px rgb(66, 65, 65); 
 }
 
-.recipe-img {
+.recipe-img-container {
     margin: 20px;
 }
 
-.recipe-img img {
+.recipe-img {
     margin-right: 10px;
     margin-bottom: -7px;
 }
+
+.recipe-img.sinigang {
+    width: 300px;
+    display: inline-block;
+    vertical-align: top;
+    }
 
 .recipe-heading {
     margin-left: 20px;
@@ -72,5 +102,5 @@ hr {
 }
 
 .recipe-subheading {
-    color: orange;
+    color: #a3a3d1;
 }
