@@ -81,12 +81,12 @@ hr {
 
 .recipe-box {
     background-color: white;
-    padding: 10px 20px ;
     margin: auto;
+    padding: 0 48px 16px 48px;
     margin-bottom: 20px;
     color: #000000e3; 
     width: 1040px;
-    box-shadow: 1px 1px 7px rgb(66, 65, 65); 
+    box-shadow: 1px 1px 7px #424141; 
 }
 
 .recipe-img, img {
@@ -95,4 +95,9 @@ hr {
 
 .recipe-subheading {
     color: #a3a3d1;
+    margin: 12px 0;
+}
+
+.end {
+    margin: 12px;
 }
